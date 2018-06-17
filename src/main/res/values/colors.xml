@@ -25,4 +25,7 @@
 	<color name="unreadcountlight">#d9868b86</color>
 	<color name="unreadcountdark">#1a1b1a</color>
 	<color name="transparent">#80FFFFFF</color>
+	<color name="blue1">#e8788678</color>
+	<color name="barpri">#e8788678</color>
+
 </resources>

@@ -20,6 +20,7 @@ import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.nfc.NdefMessage;
 import android.nfc.NdefRecord;
@@ -271,6 +272,7 @@ public class StartConversationActivity extends XmppActivity implements OnRosterU
         setContentView(R.layout.activity_start_conversation);
         mViewPager = (ViewPager) findViewById(R.id.start_conversation_view_pager);
         ActionBar actionBar = getActionBar();
+        actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.barpri)));
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
 

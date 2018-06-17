@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?attr/color_background_secondary">
-
+    <!--background color in conversations-->
     <ListView
         android:id="@+id/messages_view"
         android:layout_width="fill_parent"
@@ -13,7 +13,7 @@
         android:layout_above="@+id/snackbar"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@color/red800"
+        android:background="@color/blue1"
         android:divider="@null"
         android:dividerHeight="0dp"
         android:listSelector="@android:color/transparent"

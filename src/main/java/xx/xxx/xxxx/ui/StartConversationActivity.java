@@ -276,6 +276,7 @@ public class StartConversationActivity extends XmppActivity implements OnRosterU
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
 
+
         mContactsTab = actionBar.newTab().setText(R.string.contacts)
                 .setTabListener(mTabListener);
         actionBar.addTab(mContactsTab);
@@ -295,6 +296,7 @@ public class StartConversationActivity extends XmppActivity implements OnRosterU
         mContactsAdapter = new ListItemAdapter(this, contacts);
         ((ListItemAdapter) mContactsAdapter).setOnTagClickedListener(this.mOnTagClickedListener);
         this.mHideOfflineContacts = getPreferences().getBoolean("hide_offline", false);
+
 
 
     }

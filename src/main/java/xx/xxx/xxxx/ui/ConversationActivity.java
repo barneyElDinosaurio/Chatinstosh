@@ -308,7 +308,7 @@ public class ConversationActivity extends XmppActivity
 		if (actionBar != null) {
 			actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_TITLE);
 			//changing color action bar
-			actionBar.setBackgroundDrawable(new ColorDrawable(0xffff6666));
+			actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.barpri)));
 		}
 
 		listView.setOnItemClickListener(new OnItemClickListener() {
